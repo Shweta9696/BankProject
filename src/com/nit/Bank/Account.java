@@ -30,7 +30,7 @@ public class Account
 			System.err.println("Deposit successful:"+balance);
 		}
 		else {
-			System.out.println("Invalid depost amount...");
+			System.out.println("Invalid depost amount.");
 		}
 		
 	}
@@ -41,7 +41,7 @@ public class Account
 			System.out.println("Withdrawal successful."+balance);
 		}
 		else {
-			System.out.println("Invalid withdraw...");
+			System.out.println("Invalid withdraw.");
 		}
 	}
 	
